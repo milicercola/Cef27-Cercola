@@ -26,7 +26,11 @@
     border: 10px solid black;
     background-position: center;
 }
-
+.item:hover{
+    transform: scale(1.20);
+    background-size: cover;
+    background-position: center;
+}
 
 .item1{
     grid-column: 1/2;
